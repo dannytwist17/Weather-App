@@ -1,7 +1,7 @@
 import requests
 
 
-API_KEY = 'a0171e29dfc420d8cc6dc368be9ba752'
+API_KEY = 'your_api_key_here'
 BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 
 
@@ -9,7 +9,7 @@ def get_weather(city):
     '''Fetch weather data for a given city.'''
     params = {
         'q': city,
-        'appid': 'a0171e29dfc420d8cc6dc368be9ba752',
+        'appid': 'your_api_key_here',
         'units': 'metric'
         }
     try:
@@ -64,4 +64,5 @@ def main():
         display_weather(weather_info)
 
 if __name__ == '__main__':
+
     main()
