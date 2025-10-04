@@ -30,7 +30,7 @@ The app allows users to check the temperature, weather condition, humidity, and 
    ```bash
    git clone https://github.com/dannytwist17/Weather-App.git
 2. ```bash
-   cd smart-weather-app
+   cd Weather-App
 3. ```bash
    python weather_app.py
 4. Enter a city name and view the results!
