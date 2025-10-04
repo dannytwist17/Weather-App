@@ -28,9 +28,11 @@ The app allows users to check the temperature, weather condition, humidity, and 
 ## 🚀 How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/smart-weather-app.git
-2. cd smart-weather-app
-3. python weather_app.py
+   git clone https://github.com/dannytwist17/Weather-App.git
+2. ```bash
+   cd smart-weather-app
+3. ```bash
+   python weather_app.py
 4. Enter a city name and view the results!
 
 ## 🔑 API Key Setup
